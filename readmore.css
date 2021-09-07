@@ -1,0 +1,61 @@
+/* THESE CODES ARE FOR READ MORE BUTTON  */
+
+
+
+.more-text {
+    display: none;
+}
+
+.read-more-btn {
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.read-more-btn1 {
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.read-more-btn2 {
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.read-more-btn3 {
+    padding: 5px 25px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+.text.show-more .more-text {
+    display: inline;
+}
+
+.text1.show-more1 .more-text {
+    display: inline;
+}
+
+.text2.show-more2 .more-text {
+    display: inline;
+}
+
+.text3.show-more3 .more-text {
+    display: inline;
+}
