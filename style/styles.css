@@ -30,15 +30,19 @@
   }*/
 body {
   font-family: 'Poppins', sans-serif;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .header-class {
   position: fixed;
+  width: 100%;
   background-color: blueviolet;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
       grid-template-columns: repeat(2, 1fr);
+  opacity: 0.9;
 }
 
 .content {
@@ -89,14 +93,100 @@ body {
 }
 
 .right {
-  margin: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (20%)[5];
+      grid-template-columns: repeat(5, 20%);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.right span {
+  color: #ffffff;
+  font-weight: 200;
+}
+
+.right .home {
+  margin: 20px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .home:hover {
+  background-color: #dc143c;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .notifi {
+  margin: 20px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right .notifi:hover {
+  background-color: #dc143c;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .hackathons {
+  margin: 20px 8px;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right .hackathons:hover {
+  background-color: #dc143c;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .contact {
+  margin: 20px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right .contact:hover {
+  background-color: #dc143c;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+}
+
+.right .finder {
+  margin: 20px 10px;
+  padding: 10px 10px;
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.right .finder:hover {
+  background-color: #dc143c;
+  border-radius: 30px;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
 }
 
 .notification a {
