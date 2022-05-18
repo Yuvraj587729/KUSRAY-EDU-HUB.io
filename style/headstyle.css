@@ -1,43 +1,18 @@
-.left {
-    display: inline-block;
-    margin-top: 10px;
-    margin-left: 10px;
-    left: 10px;
-    margin-bottom: 25px;
-    transition: 0.5s;
-}
-
-.mid {
-    display: inline-block;
-    /* font-family: sans-serif; */
-    font-size: 4em;
-    margin-left: 10px;
-    transition: 0.5s;
-}
-
-.right {
-    display: inline-block;
-    position: relative;
-    /* background-color: red; */
-    left: 8vw;
-    bottom: 0.5vw;
-    transition: 0.5s;
-}
-
 .right li {
-    display: inline-block;
+    display: grid;
+    /* grid-template-columns: repeat(5, 1fr); */
 }
 
 .right li a {
-    color: grey;
+    color: rgb(255, 255, 255);
     text-decoration: none;
-    padding: 2vw;
-    font-size: 20px;
+    padding: 1.5vw;
+    font-size: 15px;
 }
 
 .right li a:hover {
     background-color: aquamarine;
-    border-radius: 40px;
+    border-radius: 30px;
 }
 /* The dropdown container */
 .dropdown {
@@ -48,8 +23,8 @@
     .dropdown li a {
     padding: 20px;
     text-decoration: none;
-    font-size: 20px;
-    color: grey;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
     background-color: inherit;
     font-family: inherit;
     /* Important for vertical align on mobile phones */
