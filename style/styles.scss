@@ -7,7 +7,7 @@
 
 :root{
     --color-primary: #191d2b;
-    --color-secondary: #27ae60;
+    --color-secondary: yellow;
     --color-white: #ffffff;
     --color-black: #000;
     --color-grey0: #f8f8f8;
@@ -33,13 +33,14 @@
   .header-class{
       position: fixed;
       width: 100%;
-      background-color: blueviolet;
+      background-color: dodgerblue;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
       opacity: 0.9;
+      box-shadow: var(--box-shadow-1);
   }
   .content{
-    margin-top: 100px;
+    padding: 100px;
   }
   .left{
     display: flex;
@@ -52,6 +53,7 @@
     margin: 1rem;
     background-color: #ffffff;
     border-radius: 50px;
+    box-shadow: var(--box-shadow-1);
     }
     .mid{
         padding-top: 0.5rem;
@@ -65,9 +67,12 @@
     }
   }
   .right{
-    display: grid;
-    grid-template-columns: repeat(5, 20%);
+    display: flex;
     justify-content: center;
+    align-items: center;
+    a{
+      text-decoration: none;
+    }
     span{
       color: #ffffff;
       font-weight: 200;
@@ -77,11 +82,14 @@
       padding:10px 10px;
       text-align: center;
       align-items: center;
+      border-radius: 30px;
       transition: all .4s ease-in-out;
       &:hover{
+        cursor: pointer;
         background-color: #dc143c;
         border-radius: 30px;
         transition: all .4s ease-in-out;
+        box-shadow: var(--box-shadow-1);
       }
     }
     .notifi{
@@ -89,10 +97,13 @@
       padding:10px 10px;
       text-align: center;
       align-items: center;
+      border-radius: 30px;
       &:hover{
+        cursor: pointer;
         background-color: #dc143c;
         border-radius: 30px;
         transition: all .4s ease-in-out;
+        box-shadow: var(--box-shadow-1);
       }
     }
     .hackathons{
@@ -100,10 +111,13 @@
       padding:10px 10px;
       text-align: center;
       align-items: center;
+      border-radius: 30px;
       &:hover{
+        cursor: pointer;
         background-color: #dc143c;
         border-radius: 30px;
         transition: all .4s ease-in-out;
+        box-shadow: var(--box-shadow-1);
       }
     }
     .contact{
@@ -111,10 +125,13 @@
       padding:10px 10px;
       text-align: center;
       align-items: center;
+      border-radius: 30px;
       &:hover{
+        cursor: pointer;
         background-color: #dc143c;
         border-radius: 30px;
         transition: all .4s ease-in-out;
+        box-shadow: var(--box-shadow-1);
       }
     }
     .finder{
@@ -122,10 +139,13 @@
       padding:10px 10px;
       text-align: center;
       align-items: center;
+      border-radius: 30px;
       &:hover{
+        cursor: pointer;
         background-color: #dc143c;
         border-radius: 30px;
         transition: all .4s ease-in-out;
+        box-shadow: var(--box-shadow-1);
       }
     }
   }
